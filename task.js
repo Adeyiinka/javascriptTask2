@@ -45,4 +45,4 @@
             return interestData;
            });
         }
-        interestCalculator(data)
+        interestCalculator(myarr)
