@@ -16,15 +16,16 @@
         ];
     
         function interestCalculator (myarr) {
-            myarr.forEach(y => {
+            myarr.forEach( 
+                {
                 let rate;
-                if (y.principal >= 2500 && y.time > 1 && y.time <3){
+                if (principal >= 2500 && time > 1 && time <3){
                      rate = 3
                     }
-            else if (y.principal >= 2500 && y.time >=3){
+            else if (principal >= 2500 && time >=3){
                      rate = 4
                     }
-            else if (y.principal < 2500 || y.time <=1){
+            else if (principal < 2500 || time <=1){
                     rate = 2
                     }
             else {
@@ -33,11 +34,11 @@
             let interest =(y.principal * rate * y.time)/100;
             let interestData=[
                 { 
-                principal: y.principal,
-                rate: rate,
-                time: y.time,
-                interest: interest
-                }
+                principal: ("")},
+                {rate: ("")},
+                {time: ("")},
+                {interest: ("")}
+                
             ];
             console.log("interestData")
 
