@@ -18,7 +18,7 @@
         function interestCalculator (myarr) {
             myarr.forEach(y => {
                 let rate;
-                if (y.principal >= 2500 && (y.time > 1 && y.time <3)){
+                if (y.principal >= 2500 && y.time > 1 && y.time <3){
                      rate = 3
                     }
             else if (y.principal >= 2500 && y.time >=3){
