@@ -31,7 +31,7 @@
             else {
                     rate = 1
             }
-            let interest =(y.principal * rate * y.time)/100;
+            let interest =(principal * rate * time)/100;
             let interestData=[
                 { 
                 principal: ("")},
@@ -45,4 +45,4 @@
             return interestData;
            });
         }
-        interestCalculator(data);
+        interestCalculator(data)
